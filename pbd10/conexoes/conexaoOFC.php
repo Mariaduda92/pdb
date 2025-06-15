@@ -2,9 +2,9 @@
 
 // Configurações do banco de dados
 $host = "localhost";
-$user = "root";
-$password = "";
-$dbname = "portal";
+$user = "usuario";
+$password = "senha";
+$dbname = "nome_do_banco";
 
 // Criar conexão com o banco de dados
 $conn = new mysqli($host, $user, $password, $dbname);
